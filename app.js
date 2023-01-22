@@ -28,7 +28,8 @@ function success(position){
 }
 
 function error(){
-    alert('position tidak dapat di akses');
+    // default location
+    prayerTime('-6.200000','106.816666');
 }
 
 function userLocation(){
